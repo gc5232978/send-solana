@@ -21,7 +21,7 @@ fn main() {
     let lamports_to_send = 1_000_000; 
     
     let rpc_url = String::from(
-        "https://nd-161-276-093.p2pify.com/0d9c9b305572908d89d8388e0e558880"
+        "https://api.devnet.solana.com"
     );
 
     let connection = RpcClient::new_with_commitment(
